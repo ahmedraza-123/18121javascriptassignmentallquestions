@@ -1,0 +1,45 @@
+<html>
+
+
+<head>
+
+
+
+</head>
+
+
+<body>
+
+<p id="show"></p>
+
+
+
+
+<script>
+
+function Student(fist, last, grade, group) {
+this.firstName = first;
+this.lastName = last;
+this.gradeStudying = grade;
+this.groupTaken = group;
+}
+
+const student1 = new Student("Ahmed", "raza", 9, "chemistry");
+const student2 = new Student("Aamir", "saleem", 11, "computer");
+const student3 = new Student("haseeb", "rauf", 13, "commerce");
+const student4 = new Student("jim", "shepher", 15, "phsics");
+
+
+document.getElementById("show").innerHTML = 
+"First Name of Student1 :: " + student1.firstName + "<br/>"+
+"First Name of Student2 :: " + student2.firstName + "<br/>"+
+"First Name of Student3 :: " + student3.firstName + "<br/>"+
+"First Name of Student4 :: " + student4.firstName + ".";
+
+
+
+</script>
+
+
+</body>
+</html>
